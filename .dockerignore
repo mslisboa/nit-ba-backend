@@ -1,0 +1,33 @@
+# Controle de versão
+.git
+.gitignore
+.gitattributes
+
+# Documentação e metadados locais
+docs
+README.md
+AGENTS.md
+Dockerfile
+.dockerignore
+
+# Ambiente
+.env
+.venv
+venv
+
+# Python
+__pycache__
+*.py[cod]
+.pytest_cache
+.ruff_cache
+.coverage
+htmlcov
+
+# Testes não entram na imagem de produção
+tests
+conftest.py
+
+# IDE e sistema
+.idea
+.vscode
+.DS_Store
